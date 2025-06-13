@@ -1,0 +1,17 @@
+{
+  "name": "alpha-blake-api",
+  "version": "1.0.0",
+  "description": "Cool WhatsApp Pairing API with auto-generated User IDs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "uuid": "^9.0.0",
+    "qrcode": "^1.5.1",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.18.4"
+  }
+}
